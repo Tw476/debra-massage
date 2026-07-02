@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-label="Calming massage therapy room with soft linen, candles, and botanical details">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8f4ed"/>
+      <stop offset="0.48" stop-color="#e7dac9"/>
+      <stop offset="1" stop-color="#8fa58f"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffaf3"/>
+      <stop offset="1" stop-color="#d7c6b4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#28352d" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#bg)"/>
+  <circle cx="1280" cy="210" r="250" fill="#fff8ee" opacity=".42"/>
+  <circle cx="116" cy="950" r="330" fill="#526a5e" opacity=".12"/>
+  <path d="M200 520C345 410 510 386 676 448c205 76 408 35 572-100 73-60 141-95 206-104v856H0V750c53-66 120-143 200-230Z" fill="#fffaf3" opacity=".34"/>
+  <g filter="url(#shadow)">
+    <rect x="278" y="558" width="900" height="256" rx="72" fill="url(#table)"/>
+    <rect x="336" y="494" width="790" height="162" rx="80" fill="#fffaf4"/>
+    <path d="M408 558c70-65 156-96 259-92 128 4 223 68 286 140H455c-33 0-50-27-47-48Z" fill="#eadccf"/>
+    <rect x="398" y="704" width="698" height="84" rx="42" fill="#b98d76" opacity=".33"/>
+  </g>
+  <g fill="none" stroke="#526a5e" stroke-width="12" stroke-linecap="round" opacity=".9">
+    <path d="M1182 684c84-112 127-238 100-376"/>
+    <path d="M1268 432c73-54 143-68 211-42-34 68-90 109-168 123"/>
+    <path d="M1240 520c-78-36-127-86-147-150 71-14 132 10 181 72"/>
+    <path d="M1214 624c-84-19-143-58-178-118 67-30 134-19 201 32"/>
+  </g>
+  <g opacity=".95">
+    <rect x="1186" y="708" width="150" height="90" rx="16" fill="#f8f4ed"/>
+    <rect x="1216" y="638" width="88" height="92" rx="44" fill="#b98d76"/>
+    <path d="M1260 610c24 34 22 55 0 75-24-20-24-43 0-75Z" fill="#f8dca8"/>
+    <rect x="1042" y="744" width="104" height="54" rx="16" fill="#526a5e"/>
+    <rect x="1064" y="696" width="60" height="64" rx="30" fill="#fff3db"/>
+  </g>
+</svg>

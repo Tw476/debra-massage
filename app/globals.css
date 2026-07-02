@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f8f4ed;
+  color: #1f2923;
+}
+
+::selection {
+  background: #b98d76;
+  color: white;
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-[8px] border border-ink/10 bg-white px-4 py-3 text-ink outline-none transition placeholder:text-ink/35 focus:border-eucalyptus focus:ring-4 focus:ring-eucalyptus/15;
+  }
+
+  .section {
+    @apply mx-auto max-w-7xl px-5 py-20 lg:px-8;
+  }
+}
