@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Mail, MapPin, MessageCircle, Phone, Star } from "lucide-react";
+import { Mail, MessageCircle, Phone, Star } from "lucide-react";
 import { benefits, business, serviceCards, testimonials, wellnessPoints } from "@/components/data";
 
 export default function HomePage() {
@@ -124,17 +124,10 @@ export default function HomePage() {
               <a className="flex items-center gap-3" href={`mailto:${business.email}`}><Mail size={20} className="text-eucalyptus" /> {business.email}</a>
               <a className="flex items-center gap-3" href={business.whatsapp} target="_blank" rel="noreferrer"><MessageCircle size={20} className="text-eucalyptus" /> WhatsApp Debra</a>
               <a className="flex items-center gap-3" href={`tel:${business.tel}`}><Phone size={20} className="text-eucalyptus" /> {business.phone}</a>
-              <p className="flex items-center gap-3"><MapPin size={20} className="text-eucalyptus" /> Houston area</p>
             </div>
             <div className="mt-8 rounded-[8px] border border-ink/10 bg-cream p-5">
               <h3 className="font-semibold">Business Hours</h3>
               <p className="mt-3 text-sm leading-7 text-ink/65">Monday-Friday: 9:00 AM-6:00 PM<br />Saturday: 10:00 AM-3:00 PM<br />Sunday: Contact for availability</p>
-            </div>
-            <div className="mt-5 rounded-[8px] border border-ink/10 bg-linen p-5">
-              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-clay">Service Area</p>
-              <p className="mt-3 text-sm leading-7 text-ink/65">
-                Contact Debra directly for service details and availability in the Houston area.
-              </p>
             </div>
           </div>
           <div className="rounded-[8px] bg-white p-6 shadow-soft">

@@ -42,7 +42,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     email: business.email,
     telephone: business.phone,
     image: business.mainImage,
-    areaServed: "Houston area",
     url: siteUrl,
     priceRange: "$$",
     sameAs: []

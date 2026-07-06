@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Facebook, Instagram, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Facebook, Instagram, Mail, MessageCircle, Phone } from "lucide-react";
 import { business } from "@/components/data";
 import { Logo } from "@/components/Logo";
 
@@ -41,9 +41,6 @@ export function Footer() {
             <a href={business.whatsapp} target="_blank" rel="noreferrer" className="flex items-center gap-2">
               <MessageCircle size={16} /> WhatsApp
             </a>
-            <p className="flex items-center gap-2">
-              <MapPin size={16} /> Houston area
-            </p>
           </div>
         </div>
       </div>
